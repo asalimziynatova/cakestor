@@ -1,3 +1,3 @@
 <?
 
-echo "salom asalxon";
+echo " Assalomu alekum bu sayt Asalxoning php sayti";
