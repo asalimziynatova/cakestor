@@ -4,8 +4,10 @@ RUN apt-get update && apt-get install -y \
   libsqlite3-dev \
   pkg-config \
   && rm -rf /var/lib/apt/lists/*
-
+ 
 RUN docker-php-ext-install pdo_sqlite
+
+Copy index.php./
 
 WORKDIR /var/www/html
 
